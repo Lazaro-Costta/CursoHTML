@@ -1,0 +1,63 @@
+
+:root{
+    line-height: 150%;
+}
+
+#page {
+    background-color: #F0E8C2;
+    border-style: solid;
+    width: 800px;
+    margin:48px auto;
+    border-radius: 23px;
+    border-color: rgba(255, 255, 255, 0);
+    
+}
+
+main {
+padding:24px
+}
+
+
+img {
+    border-radius: 14px;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2024/01/31/17/13/cupcake-8544470_1280.png);
+    background-size: cover;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+
+h1 {
+    margin-bottom: px;
+}
+
+p,li {
+    color:#573A37;
+}
+
+h1, h3{
+    color:#291B1A;
+}
+
+footer {
+    color: #413a1f;
+    text-align: center;
+    border-style:solid;
+    border-color: #573a3700;
+    border-radius: 30px;
+    background-color: rgba(87, 58, 55, 0.079);
+    width: 180px;
+    margin:auto;
+    margin-bottom: 48px;
+    backdrop-filter: blur(3px);
+    
+}
+
+footer img {
+    vertical-align: middle;
+}
