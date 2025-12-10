@@ -1,0 +1,33 @@
+:root {
+    background-color: #A0F1BD;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #2E4F21;
+}
+h3 {
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; /* espaço entre b1 e b2 */
+}
+
+#b1 {
+    border-radius: 23px;
+    color: #2E4F21;
+    width: 100px;
+    height: 30px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#b2 {
+    border-radius: 23px;
+}
+
