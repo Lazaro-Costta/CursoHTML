@@ -1,0 +1,91 @@
+body{
+    background-color:black;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+p  {
+    color:aliceblue;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    position: relative;
+    bottom: 16px;
+}
+
+#caixa { 
+    position: relative;
+    top: 200px;
+    left: 80px;
+    
+}
+
+section:not(.nao) {
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+button {
+    position: absolute;
+    z-index: 1;
+    border-radius: 14px;
+    width: 115px;
+    height: 37px;
+    padding-right: 30px;
+    background-color: #B4FF5B;
+    font-size: 100%;
+    font-weight: 700;
+   
+}
+
+img {
+    position: relative;
+    left: 95px;
+    top: 10px;
+    z-index: 2;
+}
+
+#q1, #q2, #q3, #q4{
+    border: 20px solid #B4FF5B;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+}
+
+#nao {
+    position: relative;
+    left: 1000px;
+    width: 1000;
+    height: 1000; 
+}
+
+#q1 {
+    border-right: none;
+    border-bottom: none;
+    bottom: 44px;
+}
+
+#q2 {
+    left: 200px;
+    bottom: 44px;
+}
+
+#q3 {
+    left: 200px ;
+    top: 40px;
+}
+
+#q4 {
+    top: 40px;
+}
+
