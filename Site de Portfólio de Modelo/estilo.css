@@ -1,0 +1,59 @@
+body {
+    background-color: #e5ebd7;
+}
+
+h1, p, strong {
+    font-family: "Poppins", sans-serif;
+    font-weight: 510;
+    font-style: normal;
+}
+
+
+section {
+    position: relative;
+    border: solid;
+}
+
+
+#foto1 {
+    width: 1110px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 32px;
+}
+
+h1 {
+    position: absolute;
+    left: 700px;
+    top: px;
+    font-size: 130px;
+    line-height: 1;
+}
+
+#caixa{
+    position: relative;
+    left: 1300px;
+    bottom: 340px;
+    font-size: 30px;
+}
+
+#texto {
+    position: absolute;
+    left: 700px;
+    bottom: 300px;
+}
+
+#svg {
+    position: relative;
+    width: 150px;
+    height: auto;
+    left: 1300px;
+    bottom: 270px;
+    
+
+}
+
+#data {
+    font-size: 19px;
+    font-weight: 300;
+}
