@@ -1,0 +1,27 @@
+:root {
+    background-color: black;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo{
+    width:200px ;
+}
+
+.botãos-iniciais {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 9px;
+    border: solid rgba(255, 0, 0, 0);
+
+}
+
+:hover.botãos-iniciais {
+    background-color: aliceblue;
+}
