@@ -1,0 +1,43 @@
+:root {
+    --imagem: url(assets/navegador.png);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.note {
+    position: relative;
+    border: solid;
+    border-radius: 12px;
+    width: 105px;
+    height: 14px;
+    left: 208px;
+    bottom: 260px;;
+}
+
+.caixa {
+    display: flex;
+    border: solid;
+    width: 290px;
+    height: 570px;
+    border-radius: 30px;
+    background-image: url(assets/samsung_s5_wallpaper.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: space-evenly;
+}
+.item {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: var(--imagem);
+    background-size: cover;
+    
+    
+}
