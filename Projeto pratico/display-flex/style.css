@@ -2,17 +2,29 @@
   background-color: rgb(106, 210, 254);
   width: 200px;
   height: 200px;
+  display: flex;
+  align-items: flex-end;
 } 
+
+.item2 {
+  display: flex;
+  align-items: center;
+}
+
+.item3 {
+  display: flex;
+  align-items: start;
+}
 
 
 
 .caixa {
   display: flex;
-  background-color: rgb(95, 92, 188);
-  gap: 10px;
-  height: 600px;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  background-color: rgb(95, 92, 188);
+  gap: 3px 44px
+  
 
 
 }
