@@ -16,34 +16,23 @@ body {
 
 /*cabeçalho*/
 
-:hover.page1 {
-  color: #836FFF;
-}
-:hover.page2 {
-  color: #836FFF;
-}
-:hover.home {
-  color: #836FFF;
-}
-:hover.about {
-  color: #836FFF;
-}
-:hover.contact {
-  color: #836FFF;
-}
+:hover.page1,
+:hover.page2,
+:hover.home,
+:hover.about,
+:hover.contact,
 :hover.page3 {
   color: #836FFF;
 }
-
 .cabeçalho {
   display: flex;
   align-items: center;
   gap: 40px;
   padding: 22px 200px;
   background-color: #FFFFFF;
-  
   flex-wrap: wrap;
-  
+  justify-content: center;
+    
 }
 
 .img {
@@ -105,11 +94,6 @@ footer {
   margin-top: 120px;
   background-color: #333333;
 }
-
-
-
-
-
 
 
 
