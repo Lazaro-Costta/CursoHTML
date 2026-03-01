@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(/assets/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1,.botoes {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*cabeçalho*/
+.cabecalho {
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    gap: 40px ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 29px;
+    
+}
+/*-----titulo-----*/
+
+/*-----titulo-----*/
+
+/*---foto de perfil----*/
+.perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+/*---foto de perfil----*/
+.carrinhoimg {
+    width: 30px;
+    height: 30px;
+}
+/*---favoritos---*/
+.favoritocaixa {
+    display: flex;
+    align-items: center;
+}
+#favoritostext {
+    text-decoration: underline;
+}
+.favoritos-img {
+    width: 30px;
+    height: 30px;
+}
+/*---favoritos---*/
+#emoje {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+
+}
+.caixa-central {
+    display: flex;
+    height: 35px;
+    background-color:#EDECEC ;
+    align-items: center;
+    width: auto;
+}
+.caixa-dos-botoes {
+    background-color: #EDECEC;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+/*cabeçalho*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
