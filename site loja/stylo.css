@@ -1,10 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    background-image: url(/assets/fundo.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
 
 h1,.botoes {
@@ -17,7 +14,7 @@ h1,.botoes {
 /*cabeçalho*/
 .cabecalho {
     height: 100px;
-    background-color: azure;
+    background-color: white;
     display: flex;
     gap: 40px ;
     justify-content: space-between;
@@ -78,7 +75,14 @@ h1,.botoes {
 
 /*cabeçalho*/
 
-
+.fundo {
+    background-image: url(/assets/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 900px;
+}
 
 
 
