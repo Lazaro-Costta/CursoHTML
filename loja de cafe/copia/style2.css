@@ -55,7 +55,7 @@ section {
     color: var(--main-color);
     padding-bottom: 0.1rem;
     font-size: 2rem;
-    transition: 0.1s linear
+    transition: 0.1s linear;
 }
 
 .icons a img {

@@ -29,10 +29,31 @@ body {
     border-bottom: var(--border);
 }
 
+section .navbar a{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+.navbar a:hover{
+    transition: 0.1s linear;
+    font-size: 2rem;
+    border-bottom: 0.1rem solid #d3ad7f;
+    color: aqua;
+    padding-bottom: 0.3rem;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 4rem;
+}
+
 .header section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    
 }
+
