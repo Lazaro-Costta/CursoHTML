@@ -31,14 +31,30 @@ body {
 
 section .navbar a{
     font-size: 1.8rem;
-    margin: 1rem;
+    margin: 1.2rem;
+    color: #fff;
+}
+
+.icons a:first-child{
+    margin-right: 2.0rem;
+    
+    
+}
+
+
+
+section .icons a img:hover {
+    border-bottom: solid 0.3rem var(--main-color);
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+    transition: 0.1s linear;
 }
 
 .navbar a:hover{
     transition: 0.1s linear;
     font-size: 2rem;
     border-bottom: 0.1rem solid #d3ad7f;
-    color: aqua;
+    color: var(--main-color);
     padding-bottom: 0.3rem;
 }
 
