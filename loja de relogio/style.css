@@ -68,3 +68,7 @@
     justify-content: center
 }
 
+.home .text h3 {
+    font-size: 4rem;
+    font-weight: 300;
+}
