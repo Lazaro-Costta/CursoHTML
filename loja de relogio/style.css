@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
+
     position: fixed;
 }
 
@@ -62,16 +62,34 @@
     width: 100%;
     max-width: 40rem;
     aspect-ratio: 1 / 1;
-    background: url(img/download.png) center/cover no-repeat;
+    background: url(img/download.png) center/contain no-repeat;
 }
+
+
+
 
 .home {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 8rem;
+    flex-wrap: wrap;
 }
 
 .home .text h3 {
     font-size: 4rem;
     font-weight: 300;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 16rem;
+}
+
+.saiba {
+    border-bottom: 1.5px solid black;
+    width: 5rem;
+}
+
