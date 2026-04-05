@@ -54,7 +54,7 @@
     border: solid 1.8px #44DBBD;
 }
 .comprar:hover {
-    background-color: #2F2E2E;
+    background-color: #2f2e2e00;
     color: #44DBBD;
 }
 
@@ -82,14 +82,30 @@
 }
 
 .text {
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 16rem;
+    max-height: 24rem;
 }
 
 .saiba {
+    font-weight: 360;
     border-bottom: 1.5px solid black;
     width: 5rem;
+    padding-top: 2.5rem;
+    color: black
 }
 
+.home .text p {
+    font-weight: 350;
+    letter-spacing: 0.1rem;
+
+}
+
+.home .text .comprar {
+    width: 4.7rem;
+    margin-top: 5rem;
+    display: inline-block;
+    
+}
