@@ -109,3 +109,16 @@
     display: inline-block;
     
 }
+
+.loja {
+    display: flex;
+    height: 100vh
+    
+
+}
+
+.janela {
+    width: 4rem;
+    height: 3rem;
+    background-color: #44DBBD;
+}
