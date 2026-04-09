@@ -112,13 +112,19 @@
 
 .loja {
     display: flex;
-    height: 100vh
-    
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100vw;
+    align-items: flex-start;
 
 }
 
 .janela {
-    width: 4rem;
-    height: 3rem;
+    width: 15rem;
+    height: 9rem;
+    margin: 2px;
     background-color: #44DBBD;
 }
+
