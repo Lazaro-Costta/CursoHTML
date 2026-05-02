@@ -1,0 +1,30 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    display: block;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: clamp(10rem, 80vw, 20rem);
+    height: clamp(30rem, 80vh, 40rem);
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
