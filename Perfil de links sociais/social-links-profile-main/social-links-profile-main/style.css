@@ -19,7 +19,7 @@ body {
 }
 
 section {
-    width: clamp(10rem, 80vw, 20rem);
+    width: clamp(10rem, 20vw + 10rem, 25rem);
     height: clamp(30rem, 80vh, 40rem);
     background-color: #1f1f1f;
     display: flex;
